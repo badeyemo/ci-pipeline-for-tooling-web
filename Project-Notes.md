@@ -23,8 +23,7 @@ Here are the steps I have followed.
 1. Logged to NFS server and ensured the `/mnt/opt` is exported to allow the Jenkins server make use of the mount. 
 
     - I double checked `/etc/exports'` file as set in my previous projects, the subnet range of `192.168.10/24` was the range the mounted volumes can be used to for NFS shares
-
-    -Used `exportfs -arv` to export the shared mounted folders 
+    - Used `exportfs -arv` to export the shared mounted folders 
 
           - On my jenkins server I used coommand to check for shared NFS folders
 
