@@ -22,7 +22,7 @@ Here are the steps I have followed.
 
 1. Logged to NFS server and ensured the `/mnt/opt` is exported to allow the Jenkins server make use of the mount. 
 
-          - I double checked /etc/exports file as set in my previous projects, the subnet range of `192.168.10/24` was the range the mounted volumes can be used to for NFS shares
+    - I double checked `/etc/exports'` file as set in my previous projects, the subnet range of `192.168.10/24` was the range the mounted volumes can be used to for NFS shares
 
     -Used `exportfs -arv` to export the shared mounted folders 
 
@@ -86,13 +86,16 @@ Here are the steps I have followed.
 
 4. Configure a simple jenkins job to automatically build the tooling website code
 
-                   - Creating my first job
+ * Creating my first job
 
-             - Selecting my Tooling repo
+ * Selecting my Tooling repo
 
-             - choosing to scan for changes every 2 minutes (cronjob)
+ * choosing to scan for changes every 2 minutes (cronjob)
+
 
     ![images/Untitled%203.png](images/Untitled%203.png)
+
+
 
 5. Simulated a code change and see how every code push is being deployed to each of the web servers.
 
