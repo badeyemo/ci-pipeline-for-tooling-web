@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T18:33:52.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gI1t9TaPGHkAdM4l0xo6" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T19:44:21.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8DgTKwo5tzSmiBgu04Gp" version="21.6.8" type="github">
   <diagram name="Page-1" id="sox9gBvb6wGe04dN1-5m">
-    <mxGraphModel dx="1467" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1467" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WA9xgSZP5mCjlNiA7xKw-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="80" width="570" height="240" as="geometry" />
+          <mxGeometry x="115" y="80" width="570" height="390" as="geometry" />
         </mxCell>
         <mxCell id="WA9xgSZP5mCjlNiA7xKw-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
           <mxGeometry x="375" width="50" height="50" as="geometry" />
@@ -33,6 +33,27 @@
         </mxCell>
         <mxCell id="WA9xgSZP5mCjlNiA7xKw-6" value="ActorName" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="385" y="-170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="121" y="90" width="39" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-17" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_table;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-19" width="75" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
