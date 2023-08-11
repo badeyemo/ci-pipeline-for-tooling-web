@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T18:26:06.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="IjkGNpm9DhjsbY4-HT5A" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T18:33:52.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gI1t9TaPGHkAdM4l0xo6" version="21.6.8" type="github">
   <diagram name="Page-1" id="sox9gBvb6wGe04dN1-5m">
-    <mxGraphModel>
+    <mxGraphModel dx="1467" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="80" width="570" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
+          <mxGeometry x="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WA9xgSZP5mCjlNiA7xKw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-8" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WA9xgSZP5mCjlNiA7xKw-7">
+          <mxGeometry x="0.9298" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-12" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WA9xgSZP5mCjlNiA7xKw-7">
+          <mxGeometry x="0.7938" y="-5" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-5" value="ActorName" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WA9xgSZP5mCjlNiA7xKw-6" target="WA9xgSZP5mCjlNiA7xKw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WA9xgSZP5mCjlNiA7xKw-6" value="ActorName" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="385" y="-170" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
